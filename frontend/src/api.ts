@@ -5,7 +5,7 @@ import {
   Notification, AdminOverview, AdminSkillGaps, AdminLearnerItem, AdminDepartmentItem
 } from './types';
 
-const API_BASE = '/api';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || '/api';
 
 export function getAuthToken(): string | null {
   return (
