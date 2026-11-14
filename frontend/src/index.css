@@ -1,0 +1,67 @@
+@import '@xyflow/react/dist/style.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #F6F7F9;
+  --surface: #FFFFFF;
+  --ink: #17202A;
+  --muted: #5B6573;
+  --line: #DDE1E7;
+  --progress: #0F766E;
+  --changed: #B45309;
+}
+
+@layer base {
+  html {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #17202A;
+    background-color: #F6F7F9;
+  }
+
+  body {
+    background-color: #F6F7F9;
+    color: #17202A;
+    min-height: 100vh;
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11", "tnum";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #17202A;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F6F7F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #DDE1E7;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #CBD5E1;
+}
+
+/* Base surface styling */
+.surface-card {
+  background-color: #FFFFFF;
+  border: 1px solid #DDE1E7;
+  border-radius: 10px;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

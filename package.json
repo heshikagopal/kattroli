@@ -1,0 +1,24 @@
+{
+  "name": "kattr0li-platform",
+  "version": "2.0.0",
+  "description": "KATTR0LI (கற்றொளி) — Multi-Agent Adaptive Learning Platform. Learn. Discover. Evolve.",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload",
+    "build:frontend": "cd frontend && npm run build",
+    "seed": "python -m backend.data.seed",
+    "test:system": "python -m backend.tests.test_all_workflows"
+  },
+  "keywords": [
+    "kattr0li",
+    "கற்றொளி",
+    "multi-agent",
+    "langgraph",
+    "adaptive-learning",
+    "fastapi",
+    "react",
+    "rag"
+  ],
+  "author": "KATTR0LI Team",
+  "license": "MIT"
+}

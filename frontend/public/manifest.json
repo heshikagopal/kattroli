@@ -1,0 +1,16 @@
+{
+  "name": "KATTR0LI | கற்றொளி — Adaptive Learning Platform",
+  "short_name": "KATTR0LI",
+  "description": "An AI-powered personalized learning platform that helps learners discover skill gaps, explore career opportunities, and follow adaptive learning roadmaps.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F6F7F9",
+  "theme_color": "#0F766E",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
